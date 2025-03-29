@@ -3,9 +3,11 @@
 A simple Netflix-inspired landing page built using HTML and CSS.
 
 ## Preview
-![Netflix Clone Preview](assets/pr1.png) 
-![Netflix Clone Preview](assets/pr2.png) 
-![Netflix Clone Preview](assets/pr3.png) 
+### 📺 Desktop View 
+![Desktop Preview](assets/pr1.jpg) 
+![Desktop Preview](assets/pr2.jpg) 
+### 📱 Mobile View  
+![Mobile Preview](assets/pr3.jpg) 
 
 ## Features
 ✅ Responsive design
