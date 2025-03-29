@@ -3,7 +3,9 @@
 A simple Netflix-inspired landing page built using HTML and CSS.
 
 ## Preview
-![Netflix Clone Preview](assets/preview.png) *(Add a screenshot of your project here)*
+![Netflix Clone Preview](assets/pr1.png) 
+![Netflix Clone Preview](assets/pr2.png) 
+![Netflix Clone Preview](assets/pr3.png) 
 
 ## Features
 ✅ Responsive design
@@ -17,8 +19,8 @@ A simple Netflix-inspired landing page built using HTML and CSS.
 ## How to Use
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/netflix-layout.git
-   cd netflix-layout
+   git clone https://github.com/sarthak536/Netflix-Layout.git
+   cd Netflix-Layout
    ```
 2. **Open the `index.html` file in a browser**
 3. Customize as needed!
