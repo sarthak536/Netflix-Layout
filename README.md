@@ -6,8 +6,7 @@ This is a **responsive Netflix landing page clone** built using **HTML, CSS, and
 
 ## 🔗 Live Demo
 
-👉 [View Demo](https://your-deployment-link.com)  
-_(Replace with your actual Vercel or GitHub Pages URL)_
+👉 [View Demo]( https://sarthak536.github.io/Netflix-Layout/)  
 
 ---
 
