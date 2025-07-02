@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: black;
+}
+.fh{
+    position: relative;
+    height: 106vh;
+    background: url(assets/images/bgi.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.sheet{
+    position: absolute;
+    top: 0;
+    height: 106vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    z-index: 1;
+}
+.curve{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+    margin:0vh 12vw 0vh;
+}
+.logo img{
+    width: 12vw;
+    position: relative;
+    z-index: 10;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2vw;
+}
+.buttons button{
+    height: 6vh;
+    border-radius: 5px;
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+.dropbtn {
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    overflow: hidden;
+}
+.dropdown-content a {
+    color: black;
+    font-weight: 500;
+    padding: 5px 32px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgb(22, 120, 231);
+    color: white;
+    font-weight: 500;
+}
+.dropdown-content a.highlighted {
+  background-color: rgb(22, 120, 231);
+  color: white;
+  font-weight: 500;
+}
+.dropbtn.active {
+    box-shadow:
+      0 0 0 3px black,
+      0 0 0 5px white;
+    opacity: 1;
+}
+.show {
+    display: block;
+}
+.dropdown button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    font-weight: 600;
+    border: 1px solid white;
+}
+.si{
+    z-index: 10;
+}
+.si button{
+    width: 6vw;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* content and email sign in section  */
+.desc{
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+    position: relative;
+    z-index: 10;
+}
+.desc .p1{
+    font-weight: 900;
+    font-size: 52px;
+}
+.desc .p2{
+    font-weight: 550;
+    font-size: 18px;
+}
+.desc p{
+    font-weight: 450;
+    font-size: 14px;
+}
+
+/* Input + Button */
+.ins {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.input-container {
+  position: relative;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+}
+.input-container input.ea {
+  width: 100%;
+  height: 6vh;
+  padding: 18px 12px 6px 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  caret-color: white;
+  transition: box-shadow 0.2s ease-in-out, background-color 0.3s ease;
+}
+.input-container input.ea:focus {
+  box-shadow: 0 0 0 3px black, 0 0 0 5px white;
+}
+.input-container label {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  pointer-events: none;
+  transition: all 0.2s ease-out;
+}
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown):valid + label {
+  top: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ccc;
+}
+.ea:-webkit-autofill,
+.ea:-webkit-autofill:hover,
+.ea:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: white !important;
+  caret-color: white;
+}
+.gs {
+  color: white;
+  background-color: red;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 2vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  cursor: pointer;
+}
+
+/* posters */
+.cc{
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 6vh;
+  padding-left: 10vw;
+}
+.rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  margin: 1vh 5vw;
+  position: relative;
+  overflow: hidden;
+}
+.rank-scroll {
+  display: flex;
+  padding: 0 2vw;
+  width: 75vw;
+  height: 50vh;
+  overflow-x: auto;  /* ✅ allows scroll */
+  overflow-y: hidden;
+  flex-wrap: nowrap; /* ✅ ensures one row */
+  scroll-behavior: smooth;
+  gap: max(103px,8vh);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+.rank button {
+  border: none;
+  cursor: pointer;
+}
+.arrow-container {
+  background-color: #212121 ;
+  width: 2vw;
+  height: 22vh;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-container.left {
+  margin-right: 1vw;
+}
+.arrow-container.right {
+  margin-left: 1vw;
+}
+.arrow-container:hover{
+  transform: scale(1.05);
+  background-color: gray !important;
+}
+.item {
+  position: relative;
+  flex: 0 0 auto;
+  width: 10vw;
+  background-color: black;
+  transition: transform 0.3s ease-in-out;
+}
+.item:hover, .arr:hover{
+  transform: scale(1.05);
+  z-index: 2; /* Optional: raise above nearby elements */
+}
+.rank img {
+  border-radius: 12px;
+}
+.numb{
+  position: absolute;
+  font-family: "League Spartan", sans-serif;
+  bottom: 1vh;
+  left: -2vw;
+  color: black;
+  -webkit-text-stroke: 2px white;
+  font-size: 120px;
+  font-weight: 800;
+  padding: 1vh 1vw; 
+}
+
+/* reasons section */
+.reasons{
+  display: flex;
+  justify-content: center;
+  padding: 0 10vw;
+  gap: 1vw;
+}
+.reasons div{
+  position: relative;
+  width: 18vw;
+  height: 53vh;
+  border-radius:15px;
+  margin-top: 3vh;
+  padding-top: 5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background: linear-gradient(180deg, #14131A 0%, #1E1443 100%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.reasons .dp1{
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+.reasons .dp2{
+  color: rgb(190, 190, 190);
+  font-weight: 450;
+  font-size: 16px;
+}
+.reasons div svg{
+  position: absolute;
+  bottom: 2vh;
+  right: 1vw;
+}
+
+/* faqs*/
+.quest{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 125px;
+    gap: 8px;
+}
+.quest button{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:25px 20px; 
+    color: white;
+    background-color: #2d2d2d;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1.5px solid black;
+}
+.quest button:hover{
+    background-color: #414141;
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #2d2d2d;
+  color: white;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  font-weight: 400;
+  font-size: 23px;
+  padding: 0 20px;
+}
+.faq-item.active .faq-answer {
+  padding: 20px;
+  max-height: 200px; /* Adjust as needed */
+}
+.faq-icon {
+  transition: transform 0.3s ease;
+}
+.faq-item.active .faq-icon {
+  transform: rotate(45deg); /* Makes + into × */
+}
+
+/* footer */
+footer{
+    padding-top: 50px;
+    padding-left: 125px;
+    color: rgb(190, 190, 190);
+    font-weight: 400;
+    font-size: 15px;
+}
+footer a{
+    color: rgb(190, 190, 190);
+}
+footer>div{
+    padding-bottom: 35px;
+}
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+.net{
+    padding: 30px 0;
+}
+.space{
+    height: 60px;
+}
+
+
+/* Responsive layout */
+/* ---------------------------
+   📱 Mobile View (≤ 599px)
+---------------------------- */
+@media (max-width: 599px) {
+  body {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+
+  .fh, .sheet{
+    height: 70vh;
+  }
+
+  .logo img{
+    width: 25vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav{
+    margin: 0 4vw 0;
+  }
+
+  .desc{
+    margin-top: 10vh;
+  }
+
+  .desc .p1 {
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .desc .p2, .desc p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: row;
+    align-items: center;
+    width: 45vw;
+    gap: 12px;
+  }
+
+  .dropbtn {
+    font-size: 0; /* Hides text */
+    width: 16vw;
+    height: 4vh !important;
+    padding: 0;
+  }
+
+  .dropbtn img {
+    font-size: initial; /* Keeps images unaffected */
+    width: 16px; /* Optional: adjust image size */
+  }
+
+  .si button{
+    width: 16vw;
+    height: 4vh;
+  }
+
+  .ins {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input-container{
+    width: 90%;
+  }
+
+  .gs{
+    width: 40vw;
+    height: 6vh;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .rank, .rank img{
+    height: 15vh;
+  }
+  
+  .rank-scroll{
+    gap: 20vw;
+  }
+
+  .rank button{
+    height: 50vh;
+  }
+
+  .numb{
+    font-size: 70px;
+    bottom: 16vh;
+    left: -2vw;
+  }
+
+  .arrow-container img{
+    height: 5vh;
+    width: 4vw;
+  }
+
+  .reasons {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .reasons div {
+    width: 96%;
+    padding: 30px 20px;
+    height: 20vh;
+    margin-top: 0;
+  }
+
+  .quest {
+    margin: 20px 15px;
+  }
+
+  .faq-answer, .faq-question {
+    font-size: 17px !important;
+    height: auto;
+  }
+
+  .faq-item.active .faq-answer {
+    padding: 20px;
+    max-height: 500px; /* Adjust as needed */
+  }
+
+  .table {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-left: 10px;
+  }
+
+  footer {
+    padding-left: 20px;
+  }
+}
+
+
+/* ---------------------------
+   💻 Tablet View (600–959px)
+---------------------------- */
+@media (min-width: 600px) and (max-width: 959px) {
+  body {
+    font-size: 15px;
+  }
+
+  .fh, .sheet{
+    height: 70vh;
+  }
+
+  .desc{
+    margin-top: 10vh;
+  }
+
+  .desc .p1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .desc .p2, .desc p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  
+  .ins {
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .input-container, .gs {
+    height: 6vh;
+  }
+  
+  .input-container{
+    width: 35vw;
+  }
+
+  .ea{
+    padding: 0 !important;
+  }
+
+   .rank, .rank img{
+    height: 20vh;
+  }
+  
+  .rank-scroll{
+    gap: 13vw;
+  }
+
+  .rank button{
+    height: 50vh;
+  }
+
+  .numb{
+    font-size: 70px;
+    bottom: 16vh;
+    left: -2vw;
+  }
+
+  .arrow-container img{
+    height: 5vh;
+    width: 4vw;
+  }
+
+  .reasons {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 5vw 0;
+  }
+
+  .reasons div {
+    width: 96%;
+    padding: 30px 20px;
+    height: 14vh;
+  }
+
+  .quest {
+    margin: 20px 15px;
+  }
+
+  .faq-answer, .faq-question {
+    font-size: 17px !important;
+    height: auto;
+  }
+
+  .faq-item.active .faq-answer {
+    padding: 20px;
+    max-height: 500px; /* Adjust as needed */
+  }
+
+
+}
+/* ---------------------------
+   🖥️ Desktop View (≥ 960px)
+---------------------------- */
+@media (min-width: 960px) {
+  body {
+    font-size: 16px;
+  }
+
+  .reasons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+  }
+
+  .reasons div {
+    width: 18vw;
+    height: 53vh;
+  }
+
+  .table {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .desc .p1 {
+    font-size: 52px;
+  }
+
+  .desc .p2 {
+    font-size: 20px;
+  }
+
+  .desc p {
+    font-size: 16px;
+  }
+}
