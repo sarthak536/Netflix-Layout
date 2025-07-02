@@ -1,34 +1,35 @@
-# 📺 Netflix Landing Page Clone
+# 🎬 Netflix Layout – Responsive UI Clone
 
-This is a **responsive Netflix landing page clone** built using **HTML, CSS, and JavaScript**. It replicates the design and interactivity of Netflix’s India homepage, including dropdown menus, animated carousels, and an FAQ section.
+Welcome to **Netflix Layout**, a pixel-perfect clone of the Netflix India landing page built using **HTML, CSS, and JavaScript**. This project recreates the responsive layout, stylish visuals, and interactivity found on the real Netflix homepage.
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [View Demo]( https://sarthak536.github.io/Netflix-Layout/)  
+🚀 **Explore it live here** → [Netflix Layout on GitHub Pages](https://sarthak536.github.io/Netflix-Layout/)
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
-├── index.html       # Main HTML structure
-├── style.css        # All styles including responsive design
-├── script.js        # Dropdowns, carousels, and FAQ interactivity
-└── assets/          # Images and SVGs used throughout the layout
+```plaintext
+📁 Netflix-Layout/
+├── index.html       # Main HTML layout
+├── style.css        # Styling including responsive design
+├── script.js        # All JavaScript interactivity
+└── assets/          # Contains images, SVGs, and screenshots
 ```
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- ✅ Hero section with background and email subscription form
-- ✅ Language selection dropdown
-- ✅ Trending movie/series scrollable carousel
-- ✅ Responsive design for mobile, tablet, and desktop
-- ✅ Interactive FAQ section with accordion behavior
-- ✅ Smooth scroll animations and hover effects
+- 🎥 **Hero Section** with layered background and email input
+- 🌐 **Language Dropdown** with hover highlighting
+- 🔥 **Trending Carousel** with animated scroll and arrows
+- 📱 **Fully Responsive** across mobile, tablet, and desktop
+- ❓ **FAQ Section** with interactive accordion behavior
+- 💡 **Smooth Transitions** and hover animations for engaging UI
 
 ---
 
@@ -52,54 +53,55 @@ This is a **responsive Netflix landing page clone** built using **HTML, CSS, and
 
 <img src="assets/screenshots/tablet.png" width="500" alt="Tablet View">
 
+---
 
+## 🛠️ Tech Stack Used
+
+- **HTML5** – Semantic structure and markup
+- **CSS3** – Flexbox, Grid, Media Queries, Transitions
+- **JavaScript** – DOM manipulation and interactive UI
+- **Google Fonts** – `Montserrat`, `League Spartan`
 
 ---
 
-## 🛠️ Tech Stack
-
-- **HTML5**
-- **CSS3**
-  - Flexbox and Grid
-  - Media Queries
-- **JavaScript**
-  - DOM Manipulation
-  - Event Handling
-- **Google Fonts** (`Montserrat`, `League Spartan`)
-
----
-
-## 🚀 How to Run Locally
+## 🧪 Run This Project Locally
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/netflix-clone.git
+# Clone the repo
+git clone https://github.com/sarthak536/Netflix-Layout.git
 
-# 2. Navigate into the folder
-cd netflix-clone
+# Navigate into the folder
+cd Netflix-Layout
 
-# 3. Open index.html in browser
-open index.html  # Or double-click index.html manually
+# Open in browser (or just double-click index.html)
+open index.html
 ```
 
 ---
 
-## 🌐 Deployment
+## 🚀 Deployment Options
 
-This project can be easily deployed using:
+This project is deployed on **GitHub Pages**  
+You can also deploy it using:
 
-- [Vercel](https://vercel.com) – Recommended
-- [GitHub Pages](https://pages.github.com)
-
----
-
-## 📬 Feedback or Contribution
-
-Have suggestions or improvements? Feel free to open an issue or submit a pull request.
+- [Vercel](https://vercel.com) – One-click deploy & custom domains
+- [Netlify](https://netlify.com) – Great for frontend static hosting
 
 ---
 
-## 📝 License
+## 💬 Feedback & Contributions
 
-This is a student project created for educational purposes only.  
-All brand assets and logos belong to [Netflix](https://netflix.com).
+If you have suggestions, ideas, or want to improve the design/functionality, feel free to:
+
+- ✨ Open an issue
+- 📥 Submit a pull request
+- ⭐ Star this repo if you found it helpful!
+
+---
+
+## 📝 License & Disclaimer
+
+This project is for **educational/demo purposes only**.  
+All images, brand names, and assets belong to [Netflix](https://netflix.com).
+
+---
