@@ -35,12 +35,25 @@ _(Replace with your actual Vercel or GitHub Pages URL)_
 
 ## 📸 Screenshots
 
-*(You can add screenshots after uploading them to your repo)*
+### 💻 Desktop View
 
-```html
-<!-- Example -->
-<img src="assets/images/screenshot1.png" alt="Netflix Clone Screenshot" width="800">
-```
+<img src="assets/screenshots/desktop1.png" width="800" alt="Desktop Screenshot 1"><br><br>
+<img src="assets/screenshots/desktop2.png" width="800" alt="Desktop Screenshot 2"><br><br>
+<img src="assets/screenshots/desktop3.png" width="800" alt="Desktop Screenshot 3"><br><br>
+
+---
+
+### 📱 Mobile View
+
+<img src="assets/screenshots/mobile.png" width="300" alt="Mobile View"><br><br>
+
+---
+
+### 📟 Tablet View
+
+<img src="assets/screenshots/tablet.png" width="500" alt="Tablet View">
+
+
 
 ---
 
